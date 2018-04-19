@@ -1,0 +1,29 @@
+{
+    "name": "chatbox-inc/module-template",
+    "authors": [
+        {
+            "name": "t.goto",
+            "email": "t.goto@chatbox-inc.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/",
+            "database/"
+        ]
+    },
+    "require": {
+        "aws/aws-sdk-php": "^3.54"
+    },
+    "require-dev": {
+        "laravel/lumen": "^5.6",
+        "fzaninotto/faker": "~1.4",
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "~1.0"
+    }
+}
