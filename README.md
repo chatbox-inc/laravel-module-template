@@ -1,3 +1,5 @@
 # Illuminate Module Template
 
-git 
+Submit to packagist
+
+https://packagist.org/packages/submit
